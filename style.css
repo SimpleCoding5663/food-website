@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--commmom style--*/
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  width: 100%;
+}
+.banner{
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 600px;
+  margin-top: 20px;
+  background-image: url(images/Banner\ Image.png);
+  background-size:cover;
+}
+.banner-content{
+  color: #ffffff;
+  flex-direction: column;
+}
+.banner-text{
+ text-align: center;
+}
